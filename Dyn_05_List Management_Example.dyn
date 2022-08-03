@@ -1,0 +1,329 @@
+{
+  "Uuid": "e2599f38-3846-4557-b72a-d8fe27b1f6a7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Dyn_05_List Management_Example",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "\"All work and no play makes Jack a dull boy\";",
+      "Id": "0e9efbe2dbca4d489e2329f023609931",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "6f7dd2bf1e2a4e6baf23bd0ae3f6d50d",
+          "Name": "",
+          "Description": "Value of expression at line 1",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.CodeBlockNodeModel, DynamoCore",
+      "NodeType": "CodeBlockNode",
+      "Code": "//String 1\n\"19151537271915271035271929353723141812\";\n\n//String 2\n\"221628272629272829142722152320273716233727363714391026273314353528273614103725\";\n\n//String 3\n\"1535303810361627192937161520131424181520172726292728291427363915231827103725\";",
+      "Id": "1c02c78cf689437e957e87280439e197",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "98118cc732ba4680b95222f89d14a4ba",
+          "Name": "",
+          "Description": "Value of expression at line 2",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "b8bfcd6cf509434bb6d8f00922c836f1",
+          "Name": "",
+          "Description": "Value of expression at line 5",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "cbf19cbce2f14b7b8e87cb214bde0f79",
+          "Name": "",
+          "Description": "Value of expression at line 8",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Allows for DesignScript code to be authored directly"
+    }
+  ],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 10000.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -15.750494956970215,
+      "EyeY": 22.646369934082031,
+      "EyeZ": 43.960723876953125,
+      "LookX": 10.750494956970215,
+      "LookY": -11.646369934082031,
+      "LookZ": -51.960723876953125,
+      "UpX": 0.0,
+      "UpY": 1.0,
+      "UpZ": 0.0
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "String to Code",
+        "Id": "0e9efbe2dbca4d489e2329f023609931",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -1474.8151224681228,
+        "Y": 639.35596085687826
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "String to Code",
+        "Id": "1c02c78cf689437e957e87280439e197",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": -1474.1371466853705,
+        "Y": 823.67179189927856
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "eddce6fb39744bdeafa3444d2e63ba20",
+        "Title": "",
+        "Nodes": [
+          "a822a11eb88b4e99be84f0f446d433dc"
+        ],
+        "Left": -2573.6788193990092,
+        "Top": 891.29536934228486,
+        "Width": 314.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 921.29536934228486,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFC999"
+      },
+      {
+        "Id": "03c12fd00d014ef9b9ec2a9769cbe527",
+        "Title": "",
+        "Nodes": [
+          "4469ca86f3eb4f70bbc27d8ab47f7f50"
+        ],
+        "Left": -2570.76319892751,
+        "Top": 1040.3975006965686,
+        "Width": 318.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 1070.3975006965686,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "fc0ac263a0cb4b7f8617e291572f0005",
+        "Title": "",
+        "Nodes": [
+          "fc882ffcd709429583e55eeb17d690c5"
+        ],
+        "Left": -2572.3515994919444,
+        "Top": 736.42410701529275,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 766.42410701529275,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFB9F9E1"
+      },
+      {
+        "Id": "e9fddd47b26e40c7872909cbc3f8afd4",
+        "Title": "",
+        "Nodes": [
+          "10ccff03581e4ad7ba9151e4eab41353"
+        ],
+        "Left": -2569.84021941395,
+        "Top": 577.55964257367327,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 607.55964257367327,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "1104bbbba32c4673a760c503e23e7661",
+        "Title": "A. Coding String",
+        "Nodes": [
+          "0e9efbe2dbca4d489e2329f023609931"
+        ],
+        "Left": -1484.8151224681228,
+        "Top": 586.35596085687826,
+        "Width": 442.0,
+        "Height": 146.0,
+        "FontSize": 36.0,
+        "InitialTop": 639.35596085687826,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "0da9af64ec404222811f72fdf8ea6e63",
+        "Title": "B. Decoding Strings",
+        "Nodes": [
+          "1c02c78cf689437e957e87280439e197"
+        ],
+        "Left": -1484.1371466853705,
+        "Top": 770.67179189927856,
+        "Width": 718.0,
+        "Height": 278.0,
+        "FontSize": 36.0,
+        "InitialTop": 823.67179189927856,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "c9c9d5da60744215ab634fd2f5292306",
+        "Title": "Dyn_05_List Mgmt_Example",
+        "Nodes": [
+          "712b02c49c644c9ca385d74b315b8ee6"
+        ],
+        "Left": -2224.0344590005416,
+        "Top": 585.355272330722,
+        "Width": 417.40333333333336,
+        "Height": 535.00000000000011,
+        "FontSize": 60.0,
+        "InitialTop": 739.355272330722,
+        "InitialHeight": 150.07047211407451,
+        "TextblockHeight": 144.0,
+        "Background": "#FFFFFFFF"
+      },
+      {
+        "Id": "a822a11eb88b4e99be84f0f446d433dc",
+        "Title": "Checking / Outputs\r\n_______________________________________________________\r\n\r\nOrange indicates checking nodes to ensure the script has deployed correctly.",
+        "Nodes": [],
+        "Left": -2563.6788193990092,
+        "Top": 921.29536934228486,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "4469ca86f3eb4f70bbc27d8ab47f7f50",
+        "Title": "Important stuff\r\n_______________________________________________________\r\n\r\nPurple will indicate something important is going on here.",
+        "Nodes": [],
+        "Left": -2560.76319892751,
+        "Top": 1070.3975006965686,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "fc882ffcd709429583e55eeb17d690c5",
+        "Title": "Working / Functions\r\n_______________________________________________________\r\n\r\nGreen indicates the working of the script. No changes should be made in these groups unless advised.",
+        "Nodes": [],
+        "Left": -2562.3515994919444,
+        "Top": 766.42410701529275,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "10ccff03581e4ad7ba9151e4eab41353",
+        "Title": "Variables / Inputs\r\n_______________________________________________________\r\n\r\nRed indicates Variables that can be altered per project and must be set accordingly before running the script.",
+        "Nodes": [],
+        "Left": -2559.84021941395,
+        "Top": 607.55964257367327,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "712b02c49c644c9ca385d74b315b8ee6",
+        "Title": "Exercise & Hints\r\n_______________________________________________________\r\n\r\nWe want to establish a codification language. This will be based on the following data:\r\n1. A-Z standard alphabet values and any extra special character (? ! , : ; .)\r\n2. A two digits random number sequence starting at 10. \r\n\tUse List.Shuffle to randomize your values! (Random will not work on integer)\r\n\r\n\r\nA. Code the following Sentece using Random Seed=1\r\n• All work and no play makes Jack a dull boy\r\n\r\nB. Decode the following messages using Random Seed=3\r\n•19151537271915271035271929353723141812 \r\n•221628272629272829142722152320273716233727363714391026273314353528273614103725 \r\n•1535303810361627192937161520131424181520172726292728291427363915231827103725 ",
+        "Nodes": [],
+        "Left": -2214.0344590005416,
+        "Top": 739.355272330722,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": 2034.1503179147176,
+    "Y": -392.11255253643935,
+    "Zoom": 0.78442318351101437
+  }
+}

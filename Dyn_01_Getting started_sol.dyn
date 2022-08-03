@@ -1,0 +1,540 @@
+{
+  "Uuid": "e2599f38-3846-4557-b72a-d8fe27b1f6a7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Dyn_01_Getting started_sol",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [
+    {
+      "ConcreteType": "CoreNodeModels.Watch, CoreNodeModels",
+      "NodeType": "ExtensionNode",
+      "Id": "146613857fcb4801896837e603cc0b5d",
+      "Inputs": [
+        {
+          "Id": "f9fd0d84bc3447ae981f58685517da59",
+          "Name": "",
+          "Description": "Node to show output from",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "9c0aab08a9134f6c8097bcec7543ea92",
+          "Name": "",
+          "Description": "Node output",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Visualize the node's output"
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.DoubleInput, CoreNodeModels",
+      "NodeType": "NumberInputNode",
+      "NumberType": "Double",
+      "InputValue": 20.0,
+      "Id": "78d14b92eaf1446e85919adbed774389",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "fa5feefe53104986bbc28a50d7ed1093",
+          "Name": "",
+          "Description": "Double",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a number."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.DoubleInput, CoreNodeModels",
+      "NodeType": "NumberInputNode",
+      "NumberType": "Double",
+      "InputValue": 5.0,
+      "Id": "14f739a76b1e42c2a84ac23d258d709d",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "b4f9d75a49d84f9f926cc07d992d4578",
+          "Name": "",
+          "Description": "Double",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a number."
+    },
+    {
+      "ConcreteType": "CoreNodeModels.Input.DoubleInput, CoreNodeModels",
+      "NodeType": "NumberInputNode",
+      "NumberType": "Double",
+      "InputValue": 1.0,
+      "Id": "9e850cc9939e431ba87e3542ad272130",
+      "Inputs": [],
+      "Outputs": [
+        {
+          "Id": "6476f66118b74a57a7ece99efb739775",
+          "Name": "",
+          "Description": "Double",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Disabled",
+      "Description": "Creates a number."
+    },
+    {
+      "ConcreteType": "Dynamo.Graph.Nodes.ZeroTouch.DSFunction, DynamoCore",
+      "NodeType": "FunctionNode",
+      "FunctionSignature": "Autodesk.DesignScript.Geometry.Point.ByCoordinates@double,double,double",
+      "Id": "af8d669b5ccf4a0289f6145f3b041bd1",
+      "Inputs": [
+        {
+          "Id": "f0e8da0d29ed4703ab678ee3259167da",
+          "Name": "x",
+          "Description": "X coordinate\n\ndouble\nDefault value : 0",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "48704edd241046f58368548a9b40f579",
+          "Name": "y",
+          "Description": "Y coordinate\n\ndouble\nDefault value : 0",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        },
+        {
+          "Id": "7d29a93dd37c4cfcba9837cbaf5ebac2",
+          "Name": "z",
+          "Description": "Z coordinate\n\ndouble\nDefault value : 0",
+          "UsingDefaultValue": true,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Outputs": [
+        {
+          "Id": "e3b798f641544924a3120e4352932699",
+          "Name": "Point",
+          "Description": "Point created by coordinates",
+          "UsingDefaultValue": false,
+          "Level": 2,
+          "UseLevels": false,
+          "KeepListStructure": false
+        }
+      ],
+      "Replication": "Auto",
+      "Description": "Form a Point given 3 cartesian coordinates\n\nPoint.ByCoordinates (x: double = 0, y: double = 0, z: double = 0): Point"
+    }
+  ],
+  "Connectors": [
+    {
+      "Start": "fa5feefe53104986bbc28a50d7ed1093",
+      "End": "f0e8da0d29ed4703ab678ee3259167da",
+      "Id": "b17e08cbfa3349e18192a707624ca766"
+    },
+    {
+      "Start": "b4f9d75a49d84f9f926cc07d992d4578",
+      "End": "48704edd241046f58368548a9b40f579",
+      "Id": "dbc8714524214934b7aec4540d65818a"
+    },
+    {
+      "Start": "6476f66118b74a57a7ece99efb739775",
+      "End": "7d29a93dd37c4cfcba9837cbaf5ebac2",
+      "Id": "cac0094ecc854a89ab0db5f7d5ae9e0e"
+    },
+    {
+      "Start": "e3b798f641544924a3120e4352932699",
+      "End": "f9fd0d84bc3447ae981f58685517da59",
+      "Id": "09cfe53fb6f2461fb8b5fc4a4b3a736d"
+    }
+  ],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -18.225105285644531,
+      "EyeY": 27.092706680297852,
+      "EyeZ": 20.118307113647461,
+      "LookX": 13.225105285644531,
+      "LookY": -16.092706680297852,
+      "LookZ": -28.118307113647461,
+      "UpX": 0.11015645414590836,
+      "UpY": 0.96592587232589722,
+      "UpZ": -0.23420703411102295
+    },
+    "NodeViews": [
+      {
+        "ShowGeometry": true,
+        "Name": "Watch",
+        "Id": "146613857fcb4801896837e603cc0b5d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 990.08992313406316,
+        "Y": 689.76288414070348
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "X value",
+        "Id": "78d14b92eaf1446e85919adbed774389",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 543.46257964500546,
+        "Y": 651.234404939639
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Y value",
+        "Id": "14f739a76b1e42c2a84ac23d258d709d",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 541.82595727839771,
+        "Y": 716.27712189341594
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Z value",
+        "Id": "9e850cc9939e431ba87e3542ad272130",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 541.04484368181681,
+        "Y": 791.04593564906861
+      },
+      {
+        "ShowGeometry": true,
+        "Name": "Point.ByCoordinates",
+        "Id": "af8d669b5ccf4a0289f6145f3b041bd1",
+        "IsSetAsInput": false,
+        "IsSetAsOutput": false,
+        "Excluded": false,
+        "X": 742.87107633527046,
+        "Y": 689.81600173005666
+      }
+    ],
+    "Annotations": [
+      {
+        "Id": "206d9be20c6149658e77eca074a709c1",
+        "Title": "",
+        "Nodes": [
+          "22fdde3d1c274f938fae996f47c91ac3"
+        ],
+        "Left": -667.64832645129388,
+        "Top": 660.04532906029578,
+        "Width": 318.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 690.04532906029578,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "8267b0f5f6544264a7128a125e6d1672",
+        "Title": "",
+        "Nodes": [
+          "64baa1200ff84e228d18496823d0c659"
+        ],
+        "Left": -666.03581247872717,
+        "Top": 510.94319770601203,
+        "Width": 314.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 540.943197706012,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFC999"
+      },
+      {
+        "Id": "1e3658dc81754cd18e0f8383dc83d765",
+        "Title": "",
+        "Nodes": [
+          "0459c66278b14bffb49705887528369f"
+        ],
+        "Left": -664.70859257166239,
+        "Top": 356.07193537901986,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 386.07193537901986,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFB9F9E1"
+      },
+      {
+        "Id": "4691d537ac62440ab2b471d035b76ffd",
+        "Title": "",
+        "Nodes": [
+          "50584e3c82f04409a48e3da1964b2954"
+        ],
+        "Left": -662.19721249366785,
+        "Top": 197.20747093740033,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 227.20747093740033,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "fe891518d5014fe695e974469b3d6c4b",
+        "Title": "Important Stuff",
+        "Nodes": [
+          "b696f484d8f44995873869b9816df32b"
+        ],
+        "Left": 532.91198394828655,
+        "Top": 455.19497550043127,
+        "Width": 268.0,
+        "Height": 102.0,
+        "FontSize": 36.0,
+        "InitialTop": 508.19497550043127,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "298f84d41a3e42f0b18d96d68ab39ba8",
+        "Title": "Input",
+        "Nodes": [
+          "78d14b92eaf1446e85919adbed774389",
+          "14f739a76b1e42c2a84ac23d258d709d",
+          "9e850cc9939e431ba87e3542ad272130"
+        ],
+        "Left": 531.04484368181681,
+        "Top": 598.234404939639,
+        "Width": 124.41773596318865,
+        "Height": 260.81153070942958,
+        "FontSize": 36.0,
+        "InitialTop": 651.234404939639,
+        "InitialHeight": 284.81153070942958,
+        "TextblockHeight": 43.0,
+        "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "fc138fd94fae4ce0985025e75b816f24",
+        "Title": "Check output",
+        "Nodes": [
+          "146613857fcb4801896837e603cc0b5d"
+        ],
+        "Left": 980.08992313406316,
+        "Top": 636.76288414070348,
+        "Width": 230.0,
+        "Height": 331.0,
+        "FontSize": 36.0,
+        "InitialTop": 689.76288414070348,
+        "InitialHeight": 144.99999999999994,
+        "TextblockHeight": 43.0,
+        "Background": "#FFFFC999"
+      },
+      {
+        "Id": "6ff7d5a4eed2496b8ed723631347ace9",
+        "Title": "",
+        "Nodes": [
+          "175c93eaba3a41da8a8f3be4cc26ca57"
+        ],
+        "Left": 198.28921762962216,
+        "Top": 611.277412515553,
+        "Width": 218.0,
+        "Height": 195.0,
+        "FontSize": 14.0,
+        "InitialTop": 641.277412515553,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "194341e486274dd183aa9b4610b416d2",
+        "Title": "Working",
+        "Nodes": [
+          "af8d669b5ccf4a0289f6145f3b041bd1"
+        ],
+        "Left": 732.87107633527046,
+        "Top": 636.81600173005666,
+        "Width": 177.0,
+        "Height": 198.0,
+        "FontSize": 36.0,
+        "InitialTop": 689.81600173005666,
+        "InitialHeight": 144.99999999999994,
+        "TextblockHeight": 43.0,
+        "Background": "#FFB9F9E1"
+      },
+      {
+        "Id": "8ff0ae010546423c9dca757932bbdcb2",
+        "Title": "Dyn_01_Getting started",
+        "Nodes": [
+          "93b606b9bc9544e8be9f3c5af8af0022"
+        ],
+        "Left": -316.48134534740348,
+        "Top": 194.24519692555094,
+        "Width": 426.58000000000004,
+        "Height": 405.00000000000006,
+        "FontSize": 60.0,
+        "InitialTop": 348.24519692555094,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 144.0,
+        "Background": "#FFFFFFFF"
+      },
+      {
+        "Id": "22fdde3d1c274f938fae996f47c91ac3",
+        "Title": "Important stuff\r\n_______________________________________________________\r\n\r\nPurple will indicate something important is going on here.",
+        "Nodes": [],
+        "Left": -657.64832645129388,
+        "Top": 690.04532906029578,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "64baa1200ff84e228d18496823d0c659",
+        "Title": "Checking / Outputs\r\n_______________________________________________________\r\n\r\nOrange indicates checking nodes to ensure the script has deployed correctly.",
+        "Nodes": [],
+        "Left": -656.03581247872717,
+        "Top": 540.943197706012,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "0459c66278b14bffb49705887528369f",
+        "Title": "Working / Functions\r\n_______________________________________________________\r\n\r\nGreen indicates the working of the script. No changes should be made in these groups unless advised.",
+        "Nodes": [],
+        "Left": -654.70859257166239,
+        "Top": 386.07193537901986,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "50584e3c82f04409a48e3da1964b2954",
+        "Title": "Variables / Inputs\r\n_______________________________________________________\r\n\r\nRed indicates Variables that can be altered per project and must be set accordingly before running the script.",
+        "Nodes": [],
+        "Left": -652.19721249366785,
+        "Top": 227.20747093740033,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "b696f484d8f44995873869b9816df32b",
+        "Title": "Text added using Ctrl+W on your keyboard",
+        "Nodes": [],
+        "Left": 542.91198394828655,
+        "Top": 508.19497550043127,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "175c93eaba3a41da8a8f3be4cc26ca57",
+        "Title": "1. Interface\r\n2. Searching nodes \r\n\tUpdate node name\r\n3. Add number and update nodes\r\n4. Watch node\r\n5. Group nodes and color code\r\n6. Freeze and Preview nodes!\r\n7. Auto vs Manual mode\r\n8. Adding Custom packages",
+        "Nodes": [],
+        "Left": 208.28921762962216,
+        "Top": 641.277412515553,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "93b606b9bc9544e8be9f3c5af8af0022",
+        "Title": "Contents\r\n_______________________________________________________\r\n\r\n1. Firing Dynamo up!\r\n2. Dynamo interface\r\n3. Searching for nodes\r\n\t• Manually change node name\r\n4. Input nodes\r\n5. Watch node\r\n6. Grouping nodes \r\n\t• Standard color code\r\n7. Freeze | Preview nodes\r\n8. Adding custom Packages into Dynamo\r\n\t• N:\\02 BIM\\01_BIM standards\\05_resources\\03_Dynamo",
+        "Nodes": [],
+        "Left": -306.48134534740348,
+        "Top": 348.24519692555094,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": 393.48383620484765,
+    "Y": 144.03076207234838,
+    "Zoom": 0.80488638293397852
+  }
+}

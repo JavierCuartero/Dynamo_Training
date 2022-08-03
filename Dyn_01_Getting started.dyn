@@ -1,0 +1,217 @@
+{
+  "Uuid": "e2599f38-3846-4557-b72a-d8fe27b1f6a7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Dyn_01_Getting started",
+  "ElementResolver": {
+    "ResolutionMap": {}
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Automatic",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": -18.225105285644531,
+      "EyeY": 27.092706680297852,
+      "EyeZ": 20.118307113647461,
+      "LookX": 13.225105285644531,
+      "LookY": -16.092706680297852,
+      "LookZ": -28.118307113647461,
+      "UpX": 0.11015645414590836,
+      "UpY": 0.96592587232589722,
+      "UpZ": -0.23420703411102295
+    },
+    "NodeViews": [],
+    "Annotations": [
+      {
+        "Id": "206d9be20c6149658e77eca074a709c1",
+        "Title": "",
+        "Nodes": [
+          "22fdde3d1c274f938fae996f47c91ac3"
+        ],
+        "Left": -667.64832645129388,
+        "Top": 660.04532906029578,
+        "Width": 318.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 690.04532906029578,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "8267b0f5f6544264a7128a125e6d1672",
+        "Title": "",
+        "Nodes": [
+          "64baa1200ff84e228d18496823d0c659"
+        ],
+        "Left": -666.03581247872717,
+        "Top": 510.94319770601203,
+        "Width": 314.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 540.943197706012,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFC999"
+      },
+      {
+        "Id": "1e3658dc81754cd18e0f8383dc83d765",
+        "Title": "",
+        "Nodes": [
+          "0459c66278b14bffb49705887528369f"
+        ],
+        "Left": -664.70859257166239,
+        "Top": 356.07193537901986,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 386.07193537901986,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFB9F9E1"
+      },
+      {
+        "Id": "4691d537ac62440ab2b471d035b76ffd",
+        "Title": "",
+        "Nodes": [
+          "50584e3c82f04409a48e3da1964b2954"
+        ],
+        "Left": -662.19721249366785,
+        "Top": 197.20747093740033,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 227.20747093740033,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "8d2a020d1e9a48a8bcc2587405bf0445",
+        "Title": "Dyn_01_Getting started",
+        "Nodes": [
+          "4b60ea61c33b43ccb2ed94d6a0d1bdd1"
+        ],
+        "Left": -309.330756997392,
+        "Top": 199.15232754439853,
+        "Width": 426.58000000000004,
+        "Height": 405.0,
+        "FontSize": 60.0,
+        "InitialTop": 353.15232754439853,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 144.0,
+        "Background": "#FFFFFFFF"
+      },
+      {
+        "Id": "22fdde3d1c274f938fae996f47c91ac3",
+        "Title": "Important stuff\r\n_______________________________________________________\r\n\r\nPurple will indicate something important is going on here.",
+        "Nodes": [],
+        "Left": -657.64832645129388,
+        "Top": 690.04532906029578,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "64baa1200ff84e228d18496823d0c659",
+        "Title": "Checking / Outputs\r\n_______________________________________________________\r\n\r\nOrange indicates checking nodes to ensure the script has deployed correctly.",
+        "Nodes": [],
+        "Left": -656.03581247872717,
+        "Top": 540.943197706012,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "0459c66278b14bffb49705887528369f",
+        "Title": "Working / Functions\r\n_______________________________________________________\r\n\r\nGreen indicates the working of the script. No changes should be made in these groups unless advised.",
+        "Nodes": [],
+        "Left": -654.70859257166239,
+        "Top": 386.07193537901986,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "50584e3c82f04409a48e3da1964b2954",
+        "Title": "Variables / Inputs\r\n_______________________________________________________\r\n\r\nRed indicates Variables that can be altered per project and must be set accordingly before running the script.",
+        "Nodes": [],
+        "Left": -652.19721249366785,
+        "Top": 227.20747093740033,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "4b60ea61c33b43ccb2ed94d6a0d1bdd1",
+        "Title": "Contents\r\n_______________________________________________________\r\n\r\n1. Firing Dynamo up!\r\n2. Dynamo interface\r\n3. Searching for nodes\r\n\t• Manually change node name\r\n4. Input nodes\r\n5. Watch node\r\n6. Grouping nodes \r\n\t• Standard color code\r\n7. Freeze | Preview nodes\r\n8. Adding custom Packages into Dynamo\r\n\t• N:\\02 BIM\\01_BIM standards\\05_resources\\03_Dynamo",
+        "Nodes": [],
+        "Left": -299.330756997392,
+        "Top": 353.15232754439853,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": 565.80661499038683,
+    "Y": 363.14607642122394,
+    "Zoom": 0.33405821985743411
+  }
+}

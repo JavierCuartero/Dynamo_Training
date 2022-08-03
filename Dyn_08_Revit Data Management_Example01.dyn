@@ -1,0 +1,358 @@
+{
+  "Uuid": "e2599f38-3846-4557-b72a-d8fe27b1f6a7",
+  "IsCustomNode": false,
+  "Description": "",
+  "Name": "Dyn_08_Revit Data Management_Example01",
+  "ElementResolver": {
+    "ResolutionMap": {
+      "Category": {
+        "Key": "Revit.Elements.Category",
+        "Value": "RevitNodes.dll"
+      },
+      "Elements.Element": {
+        "Key": "Revit.Elements.Element",
+        "Value": "RevitNodes.dll"
+      },
+      "Revit.Elements.Element": {
+        "Key": "Revit.Elements.Element",
+        "Value": "RevitNodes.dll"
+      },
+      "List": {
+        "Key": "List",
+        "Value": "BuiltIn.ds"
+      },
+      "Dictionary": {
+        "Key": "DesignScript.Builtin.Dictionary",
+        "Value": "DesignScriptBuiltin.dll"
+      }
+    }
+  },
+  "Inputs": [],
+  "Outputs": [],
+  "Nodes": [],
+  "Connectors": [],
+  "Dependencies": [],
+  "NodeLibraryDependencies": [],
+  "Thumbnail": "",
+  "GraphDocumentationURL": null,
+  "ExtensionWorkspaceData": [
+    {
+      "ExtensionGuid": "28992e1d-abb9-417f-8b1b-05e053bee670",
+      "Name": "Properties",
+      "Version": "2.12",
+      "Data": {}
+    },
+    {
+      "ExtensionGuid": "DFBD9CC0-DB40-457A-939E-8C8555555A9D",
+      "Name": "Generative Design",
+      "Version": "1.10",
+      "Data": {}
+    }
+  ],
+  "Author": "",
+  "Linting": {
+    "activeLinter": "None",
+    "activeLinterId": "7b75fb44-43fd-4631-a878-29f4d5d8399a",
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "Bindings": [],
+  "View": {
+    "Dynamo": {
+      "ScaleFactor": 1.0,
+      "HasRunWithoutCrash": true,
+      "IsVisibleInDynamoLibrary": true,
+      "Version": "2.12.1.8246",
+      "RunType": "Manual",
+      "RunPeriod": "1000"
+    },
+    "Camera": {
+      "Name": "Background Preview",
+      "EyeX": 3556.1142578125,
+      "EyeY": 38684.7578125,
+      "EyeZ": 13494.087890625,
+      "LookX": 13943.8857421875,
+      "LookY": -27684.7578125,
+      "LookZ": -23494.087890625,
+      "UpX": 0.27797499299049377,
+      "UpY": 0.83867067098617554,
+      "UpZ": -0.4683603048324585
+    },
+    "NodeViews": [],
+    "Annotations": [
+      {
+        "Id": "d98fe199f0aa4719b21bbb4887ed8a0b",
+        "Title": "",
+        "Nodes": [
+          "c40a3ae3086745acb6d1cc4b66a31869"
+        ],
+        "Left": -873.28000433998864,
+        "Top": 593.51185724693266,
+        "Width": 318.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 623.51185724693266,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "f40543cc0b8c4c6a9aaac436e973dc8d",
+        "Title": "",
+        "Nodes": [
+          "2a5267d00a0c46fb928f1d1e5d731c8e"
+        ],
+        "Left": -876.19562481148773,
+        "Top": 444.40972589264891,
+        "Width": 314.0,
+        "Height": 137.0,
+        "FontSize": 14.0,
+        "InitialTop": 474.40972589264891,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFC999"
+      },
+      {
+        "Id": "36afc4826c3f4b258b477d888d71ff43",
+        "Title": "",
+        "Nodes": [
+          "536ee1bac196496da009fa05d7b7257a"
+        ],
+        "Left": -874.868404904423,
+        "Top": 289.5384635656568,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 319.5384635656568,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFB9F9E1"
+      },
+      {
+        "Id": "07dda8c94cc548e48823712915102c65",
+        "Title": "",
+        "Nodes": [
+          "3f67f87dfc6d4dbdb87280552608382c"
+        ],
+        "Left": -872.35702482642841,
+        "Top": 130.67399912403732,
+        "Width": 314.0,
+        "Height": 151.0,
+        "FontSize": 14.0,
+        "InitialTop": 160.67399912403732,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFFFB8D8"
+      },
+      {
+        "Id": "4a5d02404b574f15bb496f81afe3eae1",
+        "Title": "",
+        "Nodes": [
+          "55c52a69a0984ad7a4eb007cb6e8ee46"
+        ],
+        "Left": 713.420355007176,
+        "Top": 304.465635835328,
+        "Width": 179.0,
+        "Height": 94.0,
+        "FontSize": 14.0,
+        "InitialTop": 334.465635835328,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "f4279703de25468f89999e71bfc5831d",
+        "Title": "",
+        "Nodes": [
+          "fd662d318b604216af7310a416626a52"
+        ],
+        "Left": 719.94366308803626,
+        "Top": 932.89780032773058,
+        "Width": 216.0,
+        "Height": 108.00000000000011,
+        "FontSize": 14.0,
+        "InitialTop": 962.89780032773058,
+        "InitialHeight": 145.00000000000011,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "c1eb336455e341b5a894d64c18e43b1c",
+        "Title": "",
+        "Nodes": [
+          "f4a31d82b3d7416783906943001a6702"
+        ],
+        "Left": 721.18899760099634,
+        "Top": 1495.9080895469024,
+        "Width": 238.0,
+        "Height": 108.0,
+        "FontSize": 14.0,
+        "InitialTop": 1525.9080895469024,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 20.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "d8ae682dec7445c7996e63a1ea488815",
+        "Title": "Revit file!",
+        "Nodes": [
+          "f9edd5f4871e48309ccf37d4fa085430"
+        ],
+        "Left": -492.03206119863989,
+        "Top": 540.98804106320006,
+        "Width": 311.0,
+        "Height": 146.0,
+        "FontSize": 36.0,
+        "InitialTop": 593.98804106320006,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 43.0,
+        "Background": "#FFBB87C6"
+      },
+      {
+        "Id": "faba43ab7e5a48d5af1842de91f984c2",
+        "Title": "Dyn_08_Revit Data Management_Example01",
+        "Nodes": [
+          "01c5564b47c64f299f8cf435d9c90f76"
+        ],
+        "Left": -494.19269151934759,
+        "Top": 141.08554694982894,
+        "Width": 673.81000000000006,
+        "Height": 376.0,
+        "FontSize": 60.0,
+        "InitialTop": 295.08554694982894,
+        "InitialHeight": 145.0,
+        "TextblockHeight": 144.0,
+        "Background": "#FFFFFFFF"
+      },
+      {
+        "Id": "c40a3ae3086745acb6d1cc4b66a31869",
+        "Title": "Important stuff\r\n_______________________________________________________\r\n\r\nPurple will indicate something important is going on here.",
+        "Nodes": [],
+        "Left": -863.28000433998864,
+        "Top": 623.51185724693266,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "2a5267d00a0c46fb928f1d1e5d731c8e",
+        "Title": "Checking / Outputs\r\n_______________________________________________________\r\n\r\nOrange indicates checking nodes to ensure the script has deployed correctly.",
+        "Nodes": [],
+        "Left": -866.19562481148773,
+        "Top": 474.40972589264891,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "536ee1bac196496da009fa05d7b7257a",
+        "Title": "Working / Functions\r\n_______________________________________________________\r\n\r\nGreen indicates the working of the script. No changes should be made in these groups unless advised.",
+        "Nodes": [],
+        "Left": -864.868404904423,
+        "Top": 319.5384635656568,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "3f67f87dfc6d4dbdb87280552608382c",
+        "Title": "Variables / Inputs\r\n_______________________________________________________\r\n\r\nRed indicates Variables that can be altered per project and must be set accordingly before running the script.",
+        "Nodes": [],
+        "Left": -862.35702482642841,
+        "Top": 160.67399912403732,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "55c52a69a0984ad7a4eb007cb6e8ee46",
+        "Title": "A. Get model Walls whose\r\nLength is smaller than 3m.",
+        "Nodes": [],
+        "Left": 723.420355007176,
+        "Top": 334.465635835328,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "fd662d318b604216af7310a416626a52",
+        "Title": "B. Get model Walls and Floors \r\nwhose Assembly Code parameter\r\nhas not been filled in.",
+        "Nodes": [],
+        "Left": 729.94366308803626,
+        "Top": 962.89780032773058,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "f4a31d82b3d7416783906943001a6702",
+        "Title": "C. For all Walls whose Assembly Code\r\nis empty fill in \" Check element!\"  on \r\nComments parameter.",
+        "Nodes": [],
+        "Left": 731.18899760099634,
+        "Top": 1525.9080895469024,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "f9edd5f4871e48309ccf37d4fa085430",
+        "Title": "Use this file in combination with the following Revit file:\r\n\r\nDyn_08_09_12_13_14_15_Exercises.rvt",
+        "Nodes": [],
+        "Left": -482.03206119863989,
+        "Top": 593.98804106320006,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      },
+      {
+        "Id": "01c5564b47c64f299f8cf435d9c90f76",
+        "Title": "Exercise & Hints\r\n_______________________________________________________\r\n\r\nA. Get model Walls whose Lenght is < 3m.\r\n\r\nB. Get Walls and Floors whose Assembly Code has not been filled in\r\n\r\nC. For all Walls whose A.Code is empty fill in \r\n“Check element!” on Comments Parameter!\r\n\t\r\n\r\nWatch out! Instance vs Type elements!!!",
+        "Nodes": [],
+        "Left": -484.19269151934759,
+        "Top": 295.08554694982894,
+        "Width": 0.0,
+        "Height": 0.0,
+        "FontSize": 36.0,
+        "InitialTop": 0.0,
+        "InitialHeight": 0.0,
+        "TextblockHeight": 0.0,
+        "Background": "#FFC1D676"
+      }
+    ],
+    "X": 1179.4116237262647,
+    "Y": -189.58045930076639,
+    "Zoom": 1.1118853205119448
+  }
+}
